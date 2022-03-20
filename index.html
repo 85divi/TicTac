@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>TicTacToe</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="startGame();">
+
+    <h1>TIC-TAC-TOE</h1>
+
+    <div id="message"></div>
+
+    <table border = "1">
+
+        <tr>
+            <td class="grid" id="b1" onClick="playerMove(this)"></td>
+            <td class="grid" id="b2" onClick="playerMove(this)"></td>
+            <td class="grid" id="b3" onClick="playerMove(this)"></td>
+        </tr>
+
+        <tr>
+            <td class="grid" id="b4" onClick="playerMove(this)"></td>
+            <td class="grid" id="b5" onClick="playerMove(this)"></td>
+            <td class="grid" id="b6" onClick="playerMove(this)"></td>
+        </tr>
+
+        <tr>
+            <td class="grid" id="b7" onClick="playerMove(this)"></td>
+            <td class="grid" id="b8" onClick="playerMove(this)"></td>
+            <td class="grid" id="b9" onClick="playerMove(this)"></td>
+        </tr>
+
+    </table>
+
+    <br><br>
+
+    <button id="btn" onClick="history.go(0)">New Game</button>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="tictac2.js">
+
+
+
+
+    </script>
+
+</body>
+
+</html>
